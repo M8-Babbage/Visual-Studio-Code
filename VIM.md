@@ -334,17 +334,6 @@
     
     ```jsx
     [
-      // General settings
-      {
-        "key": "alt+k",
-        "when": "editorTextFocus && !editorReadonly",
-        "command": "editor.action.moveLinesUpAction"
-      },
-      {
-        "key": "alt+j",
-        "when": "editorTextFocus && !editorReadonlyc",
-        "command": "editor.action.moveLinesDownAction"
-      },
       // Vim settings
       {
         "key": "a",
