@@ -355,5 +355,25 @@
         "command": "deleteFile",
         "when": "!inputFocus && !activeWebviewPanelId"
       },
+      {
+          "key": "ctrl+h",
+          "command": "workbench.action.navigateLeft",
+          "when": "!inQuickOpen && !suggestWidgetVisible",
+        },
+        {
+          "key": "ctrl+l",
+          "command": "workbench.action.navigateRight",
+          "when": "!inQuickOpen && !suggestWidgetVisible",
+        },
+        {
+          "key": "ctrl+k",
+          "command": "workbench.action.navigateUp",
+          "when": "!inQuickOpen && !suggestWidgetVisible",
+        },
+        {
+          "key": "ctrl+j",
+          "command": "workbench.action.navigateDown",
+          "when": "!inQuickOpen && !suggestWidgetVisible",
+        },
     ]
     ```
